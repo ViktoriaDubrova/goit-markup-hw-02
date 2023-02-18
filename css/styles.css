@@ -1,0 +1,32 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.item-nav {
+}
+.header-address {
+}
+
+/* Hero section*/
+
+.hero-section {
+    background-color: rgb(34, 34, 34);
+}
