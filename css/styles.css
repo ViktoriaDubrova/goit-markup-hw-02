@@ -22,6 +22,7 @@ body {
 :root {
     --brand-color: #2E2F42;
     --color-link: #4D5AE5;
+    --color-text: #E7E9FC;
   }
 
 .list {
@@ -212,7 +213,7 @@ ul {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--color-text);
 }
 
 .logo-color-down {
@@ -221,6 +222,38 @@ ul {
 
 /* footer  */
 
+/* portfolio  */
+.btn-section {
+    background: #E5E5E5;
+    color: var(--brand-color);
+}
+
+.modal-btn {
+    background: #F4F4FD;
+    color: var(--color-link);
+}
+
+.modal-btn:hover {
+    background: var(--color-link);
+    color: var(--color-text);
+}
+
+.portfolio-text-large {
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-text-small {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+/* portfolio  */
 
 
 
@@ -228,15 +261,3 @@ ul {
 /* potom */
 
 
-
-.modal-btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-    height: 48px;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-}
