@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url();
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     background: #E5E5E5;
@@ -11,6 +6,18 @@ body {
 }
 
 /* all-style */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 :root {
     --brand-color: #2E2F42;
@@ -49,15 +56,7 @@ ul {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 0px;
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
     font-size: 18px;
     color: var(--brand-color);
 }
@@ -73,15 +72,11 @@ ul {
 /* header  */
 
 .header-navigation {
-    margin: 0;
-    padding: 0;
     list-style: none;
     text-decoration: none;
 }
 
 .header-list {
-    padding: 0;
-    margin: 24px 832px 24px 347px;
     display: flex;
     flex-direction: row;    
     gap: 40px;   
@@ -112,17 +107,11 @@ ul {
 }
 
 .address-mail {
-    padding: 0;
-    margin: 0;
-    text-align: right;
     letter-spacing: 0.02em;
     font-size: 16px;
 }
 
 .address-tel {
-    padding: 0;
-    margin: 0;
-    text-align: center;
     letter-spacing: 0.02em;
     font-size: 16px;
 }
@@ -133,28 +122,20 @@ ul {
 /* main  */
 
 .wrapper {
-    padding: 0;
-    margin: 0;
     background: #2E2F42;
-    text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
 }
 
 .hero-text {
-    padding: 0;
-    margin: 0;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .hero-button {
-    padding: 16px 32px;
-    background: #4D5AE5;
+    background: var(--color-link);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -168,20 +149,12 @@ ul {
 
 /* about  */
 .about-section {
-    padding: 0;
-    margin: 0;
     color: var(--brand-color);
-    position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
+
 
 }
 
 .about-name {
-    padding: 0;
-    margin: 0;
     color: var(--brand-color);
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -190,8 +163,6 @@ ul {
 }
 
 .about-name-text {
-    padding: 0;
-    margin: 0;
     color: var(--brand-color);
     font-weight: 400;
     font-size: 16px;
@@ -204,37 +175,57 @@ ul {
 /* what  */
 
 .what-section {
-    padding: 0;
-    margin: 0;
     color: var(--brand-color);
-    position: absolute;
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1016px;
 }
 
 .section-name {
-    padding: 0;
-    margin: 0;
     color: var(--brand-color);
-    position: absolute;
     letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
 }
+
+/* what  */
+
+/* empl  */
+
+.name-empl {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+}
+/* empl  */
+
 /* main  */
 
+/* footer  */
+
+.footer-block {
+    background: #2E2F42;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+.logo-color-down {
+    color: #F4F4FD;
+}
+
+/* footer  */
 
 
 
 
 
-
-
-
-/* ooooo */
+/* potom */
 
 
 
