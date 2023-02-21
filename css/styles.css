@@ -1,8 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #E5E5E5;
     color: var(--brand-color);
-    height: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
 /* all-style */
@@ -23,44 +25,56 @@ body {
     --brand-color: #2E2F42;
     --color-link: #4D5AE5;
     --color-text: #E7E9FC;
-  }
+}
 
 .list {
     list-style: none;
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-.btn {
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.header {      
-    height: 72px;
 }
 
 .link {
     color: var(--brand-color);
+    text-decoration: none;
 }
 
 .link:hover {
     color: var(--color-link);
 }
 
+a, li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
 /* all-style */
 
+
 /* Logo-web */
+
+.logo-link-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
     padding: 0px;
     font-size: 18px;
     color: var(--brand-color);
-}
+    text-decoration: none;
+} 
 
 .logo-color {
     color: var(--color-link);
@@ -71,11 +85,6 @@ ul {
 /* Logo-web */
 
 /* header  */
-
-.header-navigation {
-    list-style: none;
-    text-decoration: none;
-}
 
 .header-list {
     display: flex;
@@ -92,29 +101,14 @@ ul {
 .item-nav {
     color: #2E2F42;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
     list-style: none;
     text-decoration: none;
 }
 
-.address-list {
-    padding: 0;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+.mail-tel {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     color: var(--brand-color)
-}
-
-.address-mail {
-    letter-spacing: 0.02em;
-    font-size: 16px;
-}
-
-.address-tel {
-    letter-spacing: 0.02em;
-    font-size: 16px;
 }
 
 /* header  */
@@ -124,14 +118,12 @@ ul {
 
 .wrapper {
     background: #2E2F42;
-    letter-spacing: 0.02em;
 }
 
 .hero-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -142,8 +134,6 @@ ul {
 
 .hero-text-btn {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
@@ -151,24 +141,12 @@ ul {
 /* about  */
 .about-section {
     color: var(--brand-color);
-
-
 }
 
 .about-name {
     color: var(--brand-color);
-    letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-}
-
-.about-name-text {
-    color: var(--brand-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
 }
 
 /* about  */
@@ -180,8 +158,6 @@ ul {
 }
 
 .section-name {
-    color: var(--brand-color);
-    letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -190,13 +166,13 @@ ul {
 /* what  */
 
 /* empl  */
-
+.employees-section {
+    background: #F4F4FD;
+}
 .name-empl {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--brand-color);
+
 }
 /* empl  */
 
@@ -209,10 +185,6 @@ ul {
 }
 
 .footer-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
     color: var(--color-text);
 }
 
@@ -231,6 +203,22 @@ ul {
 .modal-btn {
     background: #F4F4FD;
     color: var(--color-link);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+          0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 1px solid #e7e9fc;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--color-link);
+    border: 1px solid var(--color-text);
+    color: var(--color-text)
 }
 
 .modal-btn:hover {
@@ -242,16 +230,10 @@ ul {
     color: var(--brand-color);
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
 }
 
 .portfolio-text-small {
-    color: #434455;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    color: #434455; 
 }
 /* portfolio  */
 
