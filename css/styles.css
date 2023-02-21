@@ -3,7 +3,7 @@ body {
     color: var(--brand-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -33,7 +33,6 @@ body {
 
 .link {
     color: var(--brand-color);
-    text-decoration: none;
 }
 
 .link:hover {
@@ -99,10 +98,8 @@ a, li {
 
 
 .item-nav {
-    color: #2E2F42;
     font-weight: 500;
     list-style: none;
-    text-decoration: none;
 }
 
 .mail-tel {
@@ -123,7 +120,7 @@ a, li {
 .hero-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     color: #FFFFFF;
 }
 
@@ -136,6 +133,11 @@ a, li {
     font-weight: 500;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: Medium;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 4%;
 }
 
 /* about  */
@@ -160,7 +162,7 @@ a, li {
 .section-name {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
 }
 
 /* what  */
@@ -196,8 +198,6 @@ a, li {
 
 /* portfolio  */
 .btn-section {
-    background: #E5E5E5;
-    color: var(--brand-color);
 }
 
 .modal-btn {
@@ -216,14 +216,13 @@ a, li {
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--color-link);
     border: 1px solid var(--color-text);
-    color: var(--color-text)
 }
 
 .modal-btn:hover {
     background: var(--color-link);
     color: var(--color-text);
+    border-color: var(--color-link);
 }
 
 .portfolio-text-large {
