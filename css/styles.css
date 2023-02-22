@@ -56,15 +56,12 @@ a, li {
 /* Logo-web */
 
 .logo-link-header {
-    font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 18px;
     line-height: 1.17;  
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
 }
 
 .logo {
@@ -103,11 +100,13 @@ a, li {
 }
 
 .mail-tel {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: var(--brand-color)
 }
 
+.mail-tel:hover {
+    color: var(--color-link);
+}
 /* header  */
 
 
@@ -133,16 +132,16 @@ a, li {
     font-weight: 500;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: Medium;
+    font-family:  inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
 }
 
 /* about  */
 .about-section {
-    color: var(--brand-color);
+    
 }
 
 .about-name {
@@ -151,6 +150,9 @@ a, li {
     font-size: 20px;
 }
 
+.about-name-text {
+    color: #434455;
+} 
 /* about  */
 
 /* what  */
@@ -216,7 +218,7 @@ a, li {
 
 .btn:hover,
 .btn:focus {
-    border: 1px solid var(--color-text);
+    
 }
 
 .modal-btn:hover {
