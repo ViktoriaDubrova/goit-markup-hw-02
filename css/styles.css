@@ -26,7 +26,30 @@ body {
     --color-link: #4D5AE5;
     --color-text: #E7E9FC;
 }
+ /* yrok   */
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1128px;
+    margin: auto;
+    outline: 1px solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ .header {
+    padding: 24px 0;
+ }
+
+відстань ставити марджіном
+ /* yrok   */
+ 
 .list {
     list-style: none;
 }
